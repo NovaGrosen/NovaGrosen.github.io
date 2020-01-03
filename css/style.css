@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica;
+    background-color: #dddddd;
+}
+
+.nav{
+    width: 1920px;
+    height: 70px;
+    background-color: #ffffff;
+    border-bottom: 3px rgba(106, 163, 162, 1) solid;
+}
+
+.logo img{
+    margin-left: 70px;
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.nav-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.nav-btn a{
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #ffffff;
+}
+
+.login{
+    float: right;
+    margin-top: -48px;
+    margin-right: 70px;
+}
+
+.login-btn{
+    background: cornflowerblue;
+    height: 45px;
+    width: 130px;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.container{
+    
+}
+
+.background{
+    background-image: url("../image/marm.jpg");
+    width: 1920px;
+    height: 700px;
+    background-size: cover;
+    resize: both;
+    
+}
+
+.background p{
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    transform: translateY(270px);
+    font-size: 70px;
+
+}
+
+.block{
+    
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    margin-top: -100px;
+    width: 1100px;
+    height: 50vh;
+    margin-left: 410px;
+    /*-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);*/
+}
+
+.info-block{
+    font-size: 50px;
+    text-align: center;
+    padding: 50px;
+}
+
+.boxes{
+    margin: 0;
+    padding: 0;
+}
+
+.box-p{
+    float: left;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(106, 163, 162, 1);
+}
+.box-p p{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50%;
+    transform: translateY(-35px);
+}
+
+.box-image{
+    float: left;
+    width: 700px;
+    height: 400px;
+}
+
+.box-image img{
+    width: 700px;
+    height: 400px;
+}
+
+footer{
+    margin-top: 150px;
+    height: 100px;
+    background-color: #ffffff;
+    border-top: 3px rgba(106, 163, 162, 1) solid;
+}
+
+.company{
+    text-align: center;
+    margin-top: 45px;
+}
