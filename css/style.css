@@ -1,24 +1,37 @@
 *{
     margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 100%;
 }
 
 body{
     font-family: Helvetica;
     background-color: #dddddd;
+
+    width: 100%;
+    height: 100%;
 }
 
 .nav{
-    width: 1920px;
+    width: 100%;
     height: 70px;
     background-color: #ffffff;
     border-bottom: 3px rgba(106, 163, 162, 1) solid;
 }
 
+.logo{
+    width: 100px;
+    height: 100%;
+    margin-left: 5%;
+}
+
 .logo img{
-    margin-left: 70px;
-    margin-top: 15px;
+    margin-top: 14px;
     width: 40px;
     height: 40px;
     cursor: pointer;
@@ -36,12 +49,17 @@ body{
     margin-left: 30px;
     margin-right: 30px;
     color: #ffffff;
+    font-weight: bolder;
+}
+
+.nav-btn a:hover{
+    color: rgb(41, 90, 155);
 }
 
 .login{
     float: right;
-    margin-top: -48px;
-    margin-right: 70px;
+    margin-top: -56px;
+    margin-right: 5%;
 }
 
 .login-btn{
@@ -55,16 +73,21 @@ body{
 }
 
 .container{
-    
+    width: 100%;
+    height: 100%;
 }
 
 .background{
+    width: 100%;
+    height: 80%;
+}
+
+.daun{
     background-image: url("../image/marm.jpg");
-    width: 1920px;
-    height: 700px;
-    background-size: cover;
-    resize: both;
-    
+    width: 100%;
+    height: 100%;
+    background-repeat:no-repeat;
+    background-position: center center;
 }
 
 .background p{
@@ -74,20 +97,18 @@ body{
     align-items: center;
     transform: translateY(270px);
     font-size: 70px;
-
 }
 
 .block{
-    
-    background-repeat: no-repeat;
     background-color: #ffffff;
+    width: 60%;
+    margin: auto;
     margin-top: -100px;
-    width: 1100px;
-    height: 50vh;
-    margin-left: 410px;
-    /*-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    min-width: 1000px;
+
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);*/
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
 .info-block{
@@ -97,36 +118,41 @@ body{
 }
 
 .boxes{
-    margin: 0;
-    padding: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
 }
 
 .box-p{
-    float: left;
-    width: 400px;
-    height: 400px;
+    width: 40%;
     background-color: rgba(106, 163, 162, 1);
 }
+
 .box-p p{
     font-size: 50px;
     text-align: center;
-    margin-top: 50%;
-    transform: translateY(-35px);
+    margin-top: 35%;
 }
 
 .box-image{
-    float: left;
-    width: 700px;
-    height: 400px;
+    width: 60%;
+    position: relative;
 }
 
 .box-image img{
-    width: 700px;
-    height: 400px;
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+.box-image p{
+    position: absolute;
+    font-size: 50px;
+    left: 20%;
+    top: 40%;
 }
 
 footer{
-    margin-top: 150px;
+    margin-top: 50px;
     height: 100px;
     background-color: #ffffff;
     border-top: 3px rgba(106, 163, 162, 1) solid;
