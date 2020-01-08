@@ -1,0 +1,32 @@
+@media (min-width: 380px) and (max-width: 1023px){
+    .block{
+        width: 95%;
+        min-width: 0px;
+        
+    }
+
+    .boxes{
+        display: inline-block;
+    }
+
+    .box-p{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .box-p p{
+        margin-top: 0%;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .box-image{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .box-image p{
+        margin-left: 3%;
+    }
+
+}
