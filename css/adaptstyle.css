@@ -20,12 +20,12 @@
         padding-bottom: 200px;
     }
 
-    .box-image{
+    .box-img{
         display: inline-block;
         width: 100%;
     }
 
-    .box-image p{
+    .box-img p{
         margin-left: 3%;
     }
 
