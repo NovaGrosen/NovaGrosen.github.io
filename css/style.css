@@ -76,7 +76,7 @@ body{
 }
 
 .main-bg{
-    background-image: url("image/marm.jpg");
+    background-image: url("../image/marm.jpg");
     height: 700px;
     background-repeat: no-repeat;
     background-position: center center;
