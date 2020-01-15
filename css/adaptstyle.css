@@ -1,8 +1,7 @@
-@media (min-width: 380px) and (max-width: 1023px){
+@media only screen and (min-width: 600px) {
     .block{
         width: 95%;
         min-width: 0px;
-        
     }
 
     .boxes{
@@ -10,14 +9,7 @@
     }
 
     .box-p{
-        display: inline-block;
         width: 100%;
-    }
-
-    .box-p p{
-        margin-top: 0%;
-        padding-top: 200px;
-        padding-bottom: 200px;
     }
 
     .box-img{
@@ -25,8 +17,101 @@
         width: 100%;
     }
 
-    .box-img p{
-        margin-left: 3%;
+    .box-img img{
+        margin-bottom: -4px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .block{
+        width: 95%;
+        min-width: 0px;
     }
 
+    .boxes{
+        display: inline-block;
+    }
+
+    .box-p{
+        width: 100%;
+    }
+
+    .box-img{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .box-img img{
+        margin-bottom: -4px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .block{
+        width: 85%;
+        min-width: 0px;
+    }
+
+    .boxes{
+        display: inline-block;
+    }
+
+    .box-p{
+        width: 100%;
+    }
+
+    .box-img{
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .block{
+        width: 85%;
+
+    }
+
+    .boxes{
+        display: flex;
+    }
+
+    .box-p{
+        width: 40%;
+    }
+
+    .box-img{
+        display: flex;
+        width: 60%;
+    }
+
+    .box-img img{
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .block{
+        width: 60%;
+        min-width: 1000px;
+    }
+
+    .boxes{
+        display: flex;
+    }
+
+    .box-p{
+        width: 40%;
+    }
+
+    .box-img{
+        display: flex;
+        width: 60%;
+    }
+
+    .box-img img{
+        margin-bottom: 0px;
+    }
 }
